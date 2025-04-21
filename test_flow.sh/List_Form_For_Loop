@@ -1,0 +1,16 @@
+for item in item1 item2 item3; do
+    echo $item
+done
+
+#!/bin/bash
+
+for i in 1 2 3 4 5
+do
+    echo "Hello, World! This is message $i"
+done
+
+for i in {"1..5"}
+do
+    echo "Counting... $i"
+done
+
